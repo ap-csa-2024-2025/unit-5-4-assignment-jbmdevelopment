@@ -10,7 +10,7 @@ public class Main {
   }
   public static double quadratic(double a, double b, double c) {
     final double opposite = b * -1;
-    final double discr = Marh.sqrt(b * b - 4 * a * c);
+    final double discr = Math.sqrt(b * b - 4 * a * c);
     final double equation1 =  ((double) opposite + discr) / (2 * a);
     final double equation2 =  ((double) opposite + discr) / (2 * a);
     return equation1;
